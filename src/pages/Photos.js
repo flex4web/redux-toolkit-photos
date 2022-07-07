@@ -48,7 +48,7 @@ const Photos = () => {
                 <img src={thumbnailUrl} className="card-img-top" alt={title} />
                 <div className="card-body">
                   <h5 className="card-title">{title}</h5>
-                  <a href={url} className="btn btn-primary">
+                  <a href={url} className="btn btn-secondary mt-3">
                     Details
                   </a>
                 </div>
